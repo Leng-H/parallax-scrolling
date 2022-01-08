@@ -16,7 +16,7 @@
     </header>
     <section>
       <img src="images/m_1.png" id="background" />
-      <h2 id="text">We Love to Travel</h2>
+      <h2 id="text">Travel Night</h2>
       <a href="#content" id="button">Explore</a>
       <img src="images/m_3.png" id="foreground" />
     </section>
@@ -77,6 +77,22 @@
       let foreground = document.getElementById("foreground");
       let background = document.getElementById("background");
       let button = document.getElementById("button");
+      let text = document.getElementById("text");
+
+      let header = document.querySelector("header");
+
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        foreground.style.top = value + 5 + "px";
+        text.style.marginRight =
+          value * 8 + "px"; /* make text go from right to left*/
+        text.style.marginTop =
+          value * 0.5 + "px"; /* make text sinks down as well */
+        button.style.marginTop =
+          value * 0.5 +
+          "px"; /* make the button sinks as well to keep its distance from each other the same*/
+        header.style.top = value * 0.5 + "px";
+      });
     </script>
   </body>
 </html>

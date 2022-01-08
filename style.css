@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth; /* for a smoother transition when user clicks the button*/
 }
 
 body {
@@ -67,6 +68,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 section::before {
@@ -97,6 +99,7 @@ section img#foreground {
 
 #text {
   position: absolute;
+  right: -1000px;
   color: white;
   white-space: nowrap;
   font-size: 7.5vw;
