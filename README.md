@@ -1,1 +1,1 @@
-# parallax-scrolling![sample](https://user-images.githubusercontent.com/45100515/226115010-6c5b6ee3-499e-4369-a325-efd1afd885c1.png)
+![Parallax_Scrolling_Demo](https://github.com/Leng-H/parallax-scrolling/assets/45100515/4f2bfa87-f6f9-457f-a8eb-4e69be89fcc8)
